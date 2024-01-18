@@ -1,0 +1,10 @@
+import json
+
+# Assume data is a dictionary
+data = {'name': 'Alice', 'age': 25}
+# Serialize to JSON
+json_data = json.dumps(data)
+print(json_data)
+# Deserialize JSON
+decoded_data = json.loads(json_data)
+print(decoded_data)
